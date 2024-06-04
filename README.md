@@ -18,8 +18,9 @@ SQL Server for Data Cleanin and Performing EDA
 The exploratory data analysis uncovered key insights, such as:
 
 1. The consumer, retail and transportation industries experienced the highest number of layoffs. 
-2. The United States had the most layoffs overall followed by India.
+2. The **United States** had the most layoffs overall followed by **India**.
 3. Temporal analysis revealed that since January 2023 till March 2023 consistently had the highest number of layoffs.
 4. The analysis also identified that companies in the post-IPO stage were most impacted by layoffs.
-5. **Google** in the year 2023 was the company with highest layoffs with **12,000** employees
+5. **Google** in the year 2023 was the company with highest layoffs with **12,000** employees.
+   
 These findings provide valuable insights into the trends and patterns of global layoffs, which can inform organizational decision-making and workforce management strategies.
