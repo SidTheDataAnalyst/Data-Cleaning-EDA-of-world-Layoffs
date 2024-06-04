@@ -82,22 +82,6 @@ FROM
 GROUP BY SUBSTRING(`date`, 1, 7)
 ORDER BY 1 ASC;
 
--- Rolling total of layoffs monthwsie
-
-WITH Rolling_total AS
-(
-SELECT 
-    SUBSTRING(`date`, 1, 7) AS 'MONTH', SUM(total_laid_off) AS total_off
-FROM
-    layoffs_staging2
-    WHERE SUBSTRING(`date`, 1, 7) IS not null
-GROUP BY SUBSTRING(`date`, 1, 7)
-ORDER BY SUBSTRING(`date`, 1, 7) ASC
-)
-SELECT 'MONTH', total_off, SUM(total_off) OVER(order BY 'MONTH') AS rolling_total
-FROM Rolling_total;
-
-
 
 SELECT 
     company, SUM(total_laid_off)
