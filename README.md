@@ -7,7 +7,7 @@ The project focuses on cleaning and exploring a dataset of global layoffs across
 
 ### Data Source
 ---
-World Layoffs.csv
+World Layoffs.csv[Download Here](layoffs.csv)
 
 ### Tools Used
 ---
